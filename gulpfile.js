@@ -354,7 +354,7 @@ exports.default = series(
   styles,
   resources,
   images,
-  webpImages,
+  // webpImages,
   // avifImages, // если надо avif img раскомент
   svgSprites,
   watchFiles);
@@ -366,7 +366,7 @@ exports.backend = series(
   stylesBackend,
   resources,
   images,
-  webpImages,
+  // webpImages,
   // avifImages, // если надо avif img раскомент
   svgSprites)
 
@@ -378,7 +378,7 @@ exports.build = series(
   styles,
   resources,
   images,
-  webpImages,
+  // webpImages,
   // avifImages,// если надо avif img раскомент
   svgSprites,
   htmlMinify);

@@ -1,11 +1,33 @@
 :root {
-  font-family: "Adobe Garamond Pro";
-  font-weight: 400;
-  font-style: normal;
-  // @media (max-width: (400px)) {
-  //     font-size: 0.8rem;
-  // }
+    font-family: "PTSansNarrow",sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    font-style: normal;
+    // @media (max-width: (400px)) {
+    //     font-size: 0.8rem;
+    // }
 }
-.main {
+body {
+    min-width: 960px;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    color: $basic-white;
+    background-color: $basic-black;
+    background-position: top center;
+    background-image: url('../img/background.jpg');
+    background-repeat: no-repeat;
 }
-
+a {
+    text-decoration: none;
+    color: $basic-white;
+}
+img {
+    // warn
+    max-width: 100%;
+    height: auto;
+}
+ul {
+    list-style:none;
+}
