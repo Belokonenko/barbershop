@@ -6,5 +6,9 @@
 @import "../setings/base";
 // --- /glob ---
 // --- parts ---
+@import "../parts/_header/header";
 @import "../parts/_main/main";
+@import "../parts/_footer/footer";
+@import "../parts/_sec-authentication/sec-authentication";
+@import "../parts/_sec-map/sec-map";
 // --- /parts ---

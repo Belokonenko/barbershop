@@ -1,8 +1,17 @@
 .sec-contact-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 50px;
+    color: $basic-black;
     background-color: $basic-estra-light;
-    input {
-        background-color: $basic-dark;
+    .contact {
+        padding: 30px;
     }
-
+    .form {
+        padding: 30px;
+        input {
+            background-color: $basic-dark;
+        }
+    }
 }
 

@@ -1,5 +1,19 @@
 .sec-news-gal{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 50px;
+    color: $basic-black;
     background-color:$basic-estra-light;
+    .block-news {
+        padding: 30px;
+        ul {
+            margin: 0;
+            padding: 0;
+        }
+    }
+    .block-gallery {
+        padding: 30px;
+    }
     figure {
         border: 7px solid grey;
         background: $basic-neytral;

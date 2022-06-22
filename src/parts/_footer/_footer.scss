@@ -1,0 +1,10 @@
+.footer{
+    background-color:$basic-extra-dark;
+    .footer-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    @import"_sec-find-us/sec-find-us";
+    @import"_sec-friendship/sec-friendship";
+    @import"_sec-dev/sec-dev";
+}
